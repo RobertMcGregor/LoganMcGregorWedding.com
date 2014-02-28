@@ -1,0 +1,16 @@
+#photos-outter {
+	width: 100%;
+	margin: auto;
+}
+
+#photos-inner {
+	margin: auto;
+	width: 990px;
+	height:200px;
+	background-image:url('../img/header/background.png');
+}
+
+.photos-content {
+	margin-right: 50px;
+	margin-left: 50px;
+}

@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /about/press_announcements
+Disallow: /about/press_speaker
+Disallow: /ajax
+Disallow: /application
+Disallow: /dev
+Disallow: /forms
+Disallow: /home
+Disallow: /system
+Disallow: /teach/library_filter
+Disallow: /test

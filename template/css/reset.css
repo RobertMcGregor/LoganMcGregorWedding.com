@@ -1,0 +1,83 @@
+/**********************************
+
+reset.css - This file is for setting default values for all
+HTML elements, irrelevant of any attributes. These values are
+meant to be overridden by the other CSS files, and generally
+this file should not be edited.
+
+**********************************/
+
+/**********************************
+
+Use: Reset Styles for all browsers
+
+***********************************/
+	
+body, p, blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+img, iframe { border: 0; }
+	
+/* Headers
+------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	line-height: normal;
+}
+	
+/* Lists
+------------------------------*/
+	
+ul, ol, dl, li, dt, dd {
+	margin: 0;
+	padding: 0;
+}
+	
+/* Links
+------------------------------*/
+
+a, a:link {}
+a:visited {}
+a:hover {}
+a:active {}
+
+/* Forms
+------------------------------*/
+
+form, fieldset {
+	margin: 0;
+	padding: 0;
+}
+	
+fieldset { border: 1px solid #000; }
+
+legend {
+	padding: 0;
+	color: #000;
+}
+
+input, textarea, select {
+	margin: 0;
+	padding: 1px;
+	font-size: 100%;
+	font-family: inherit;
+}
+	
+select { padding: 0; }
+	
+/* Table
+------------------------------*/
+	
+table {
+	border: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+table, tr, th, td {
+	padding: 0;
+}

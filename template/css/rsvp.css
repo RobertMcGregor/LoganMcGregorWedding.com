@@ -1,0 +1,17 @@
+#rsvp-outter {
+	width: 100%;
+	margin: auto;
+	
+}
+
+#rsvp-inner {
+	margin: auto;
+	width: 990px;
+	height: 400px;
+	background-image:url('../img/header/background.png');
+}
+
+.rsvp-content {
+	margin-right: 50px;
+	margin-left: 50px;
+}
