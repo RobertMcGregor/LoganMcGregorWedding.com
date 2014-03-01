@@ -28,6 +28,7 @@ a:hover
 </head>
 <body>
 	<div>
+		asjkfjdskalfjskl
 		<a href='<?php echo site_url('images_examples/example1')?>'>Example 1 - Simple</a> |
 		<a href='<?php echo site_url('images_examples/example2')?>'>Example 2 - Ordering</a> |
 		<a href='<?php echo site_url('images_examples/example3/22')?>'>Example 3 - With group id</a> |
