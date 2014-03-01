@@ -17,6 +17,7 @@ class Images_examples extends MY_Controller {
 	
 	function _example_output($output = null)
 	{
+		die('hfjkasd');
 		$this->load->view('example.php',$output);	
 	}
 	
