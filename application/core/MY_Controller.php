@@ -37,7 +37,7 @@ class MY_Controller extends CI_Controller {
 			$this->load->view($view, $data);
 		}
 		
-	  $data['day']   = 25;     // Day of the countdown
+	  	$data['day']   = 25;     // Day of the countdown
 		$data['month'] = 8;      // Month of the countdown
 		$data['year'] = 2012;   // Year of the countdown
 		$data['hour']  = 19;     // Hour of the day (east coast time)
