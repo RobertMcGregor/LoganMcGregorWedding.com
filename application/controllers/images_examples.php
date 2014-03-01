@@ -31,8 +31,7 @@ class Images_examples extends MY_Controller {
 		
 		$image_crud->set_primary_key_field('id');
 		$image_crud->set_url_field('url');
-		$image_crud->set_table('example_1')
-			->set_image_path('assets/uploads');
+		$image_crud->set_table('example_1')->set_image_path('assets/uploads');
 			
 		$output = $image_crud->render();
 		
