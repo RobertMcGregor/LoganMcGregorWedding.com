@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Images_examples extends MY_Controller {
+class Images_examples extends CI_Controller {
 
 	function __construct()
 	{
@@ -17,7 +17,7 @@ class Images_examples extends MY_Controller {
 	
 	function _example_output($output = null)
 	{
-		$this->_render('example.php',$output);	
+		$this->load->view('example.php',$output);	
 	}
 	
 	function index()
