@@ -17,7 +17,7 @@ class Images_examples extends MY_Controller {
 	
 	function _example_output($output = null)
 	{
-		$this->_render->view('example.php',$output);	
+		$this->_render('example.php',$output);	
 	}
 	
 	function index()
