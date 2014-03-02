@@ -12,9 +12,9 @@ foreach($css_files as $file): ?>
 
 		<div class="photos-content">
 			
-
-			LALALALALA
-
+			<br />
+			<?php echo $output; ?>
+			
 		</div>
 		
 	</div>
