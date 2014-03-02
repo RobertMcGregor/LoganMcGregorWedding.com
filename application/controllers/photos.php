@@ -6,6 +6,7 @@ class Photos extends MY_Controller {
 	{
 
 		$this->_load_css(array(CSS."photos.css"));
+		
 		$this->load->library('image_CRUD');				
 		
 		
@@ -17,7 +18,7 @@ class Photos extends MY_Controller {
 		//$output = $image_crud->render();
 
 		
-		$this->_render(array("photos/view_photos");
+		$this->_render(array("photos/view_photos","example"));
 	}	 
 	
 
