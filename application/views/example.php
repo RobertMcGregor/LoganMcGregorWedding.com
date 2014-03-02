@@ -3,12 +3,12 @@
 <head>
 	<meta charset="utf-8" />
 <?php
-/*
+
 foreach($css_files as $file): ?>
 	<link type="text/css" rel="stylesheet" href="<?php echo $file; ?>" />
 <?php endforeach; 
-*/?>
-
+?>
+<!--
 	<link type="text/css" rel="stylesheet" href="http://www.logan-mcgregor-wedding.com/assets/image_crud/css/fineuploader.css" />
 	<link type="text/css" rel="stylesheet" href="http://www.logan-mcgregor-wedding.com/assets/image_crud/css/photogallery.css" />
 	<link type="text/css" rel="stylesheet" href="http://www.logan-mcgregor-wedding.com/assets/image_crud/css/colorbox.css" />
@@ -16,12 +16,12 @@ foreach($css_files as $file): ?>
 	<script src="http://www.logan-mcgregor-wedding.com/assets/image_crud/js/jquery-ui-1.9.0.custom.min.js"></script>
 	<script src="http://www.logan-mcgregor-wedding.com/assets/image_crud/js/fineuploader-3.2.min.js"></script>
 	<script src="http://www.logan-mcgregor-wedding.com/assets/image_crud/js/jquery.colorbox-min.js"></script>
-
-<?php/*
+-->
+<?php
 foreach($js_files as $file): ?>
 	<script src="<?php echo $file; ?>"></script>
 <?php endforeach; 
-*/?>
+?>
 
 <style type='text/css'>
 body
