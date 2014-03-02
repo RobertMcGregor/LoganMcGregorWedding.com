@@ -28,13 +28,13 @@ class MY_Controller extends CI_Controller {
 		if (!is_array($views)) $views = array($views);
 		
 		if(!isset($_GET['no_css'])){
-			$this->load->view("layout/html_start", $data);
-			$this->load->view("layout/header", $data);
-			$this->load->view("layout/nav", $data);
+			$this->load->view("layout/html_start", array()$data);
+			$this->load->view("layout/header", array()$data);
+			$this->load->view("layout/nav", array()$data);
 		}
 		
 		foreach ($views as $view) {
-			$this->load->view($view, $data);
+			$this->load->view($view, array()$data);
 		}
 		
 	  	$data['day']   = 25;     // Day of the countdown
