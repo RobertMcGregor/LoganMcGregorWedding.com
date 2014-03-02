@@ -9,7 +9,7 @@
 			<li class="nav-item">
 				<a href="<?=$item['href'] ?>">
 					<?= $item['img']?'<img class="hover" src="'.IMG.'nav/'.$item['img'].'" alt="'.$item['text'].'" />':$item['text'] ?>
-        </a>
+     			</a>
 			</li>
 		<?php
 		}?>
