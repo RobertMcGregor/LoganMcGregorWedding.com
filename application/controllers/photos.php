@@ -23,7 +23,7 @@ class Photos extends MY_Controller {
 
 	    $image_crud = new image_CRUD();
 		 
-	    $image_crud->set_table('example_1');
+	    $image_crud->set_table('example_2');
 		 
 		$image_crud->set_primary_key_field('id');
 		$image_crud->set_url_field('url');
