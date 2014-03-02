@@ -22,11 +22,15 @@ class Photos extends MY_Controller {
 		$image_crud->set_title_field('title');
 		$image_crud->set_table('wedding_album')
 		->set_ordering_field('priority')
-		->set_image_path('assets/uploads');
+		->set_image_path('albums');
 			
 		$output = $image_crud->render();
 	
-		$this->_render(array("photos/view_photos"),$output);
+		//$this->_render(array("photos/view_photos"),$output);
+
+
+		$this->load->view('photos/view_photos.php',$output);	
+		//$this->_example_output($output);
 
 	}	 
 	
