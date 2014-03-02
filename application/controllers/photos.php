@@ -32,8 +32,7 @@ class Photos extends MY_Controller {
 
 		$output = $image_crud->render();
 
-		$this->_render("photos/view_photos","example"));
-		//$this->photos($output);
+		$this->photos($output);
 
 	}	 
 	
