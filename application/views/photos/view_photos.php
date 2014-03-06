@@ -14,13 +14,15 @@ foreach($css_files as $file): ?>
 			
 			<br />
 			<?php echo $output; ?>
-			<pre>
-			<?php print_r(array_shift($photos)); ?>
-			</pre>
-			<?php /*
+			<?php 
 				foreach ($photos as $key => $value) {
-					echo $key." -- ".print_r($value)."<br/>";
-				}*/
+					foreach ($photos[$key] as $row_value) {  ?>
+						la
+					
+
+			<?php 
+					}
+				}
 			?>
 			
 		</div>
