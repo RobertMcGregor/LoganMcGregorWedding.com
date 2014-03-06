@@ -32,7 +32,7 @@ class Photos extends MY_Controller {
 		}else{
 
 			$this->load->model("photos");
-			$data['photos'] = $this->photos->get(12);
+			$data['photos'] = $this->photos->get();
 
 			$this->_render(photos,$data);
 
