@@ -11,7 +11,7 @@ class Photos extends MY_Controller {
 	}
 
 	public function index()
-	{
+	{fhsdjkafh
 
 		$this->_load_css(array(CSS."photos.css"));
 
@@ -36,7 +36,7 @@ class Photos extends MY_Controller {
 
 			$this->_render(array("photos/view_photos"),$data);
 
-		}}
+		}
 	}	 
 	
 
