@@ -14,7 +14,12 @@ foreach($css_files as $file): ?>
 			
 			<br />
 			<?php echo $output; ?>
-			fjasklfjd;k
+
+			<?php 
+				foreach ($photos as $key => $value) {
+					echo $key." -- ".$value."<br/>";
+				}
+			?>
 			
 		</div>
 		
