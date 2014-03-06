@@ -17,8 +17,8 @@ foreach($css_files as $file): ?>
 			<?php 
 				foreach ($photos as $key => $value) {
 					foreach ($photos[$key] as $row_value) {  ?>
-						la
 					
+						<img src="http://www.logan-mcgregor-wedding.com/albums/"<?=$row_key['thumb']?>>
 
 			<?php 
 					}
