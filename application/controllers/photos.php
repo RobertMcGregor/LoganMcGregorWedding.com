@@ -36,7 +36,7 @@ class Photos extends MY_Controller {
 
 			$this->_render(array("photos/view_photos"),$data);
 
-		}
+		}}
 	}	 
 	
 
