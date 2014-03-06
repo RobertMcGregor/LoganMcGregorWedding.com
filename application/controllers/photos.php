@@ -15,23 +15,25 @@ class Photos extends MY_Controller {
 
 		$this->_load_css(array(CSS."photos.css"));
 
-		$image_crud = new image_CRUD();
-	
-		$image_crud->set_primary_key_field('id');
-		$image_crud->set_url_field('url');
-		$image_crud->set_title_field('title');
-		$image_crud->set_table('wedding_album')
-		->set_ordering_field('priority')
-		->set_image_path('albums');
-			
-		$output = $image_crud->render();
-	
-		//$this->_render(array("photos/view_photos"),$output);
-
-
+		if($_GET['IMAGE_CRUD'] == 'edit'){
+			$image_crud = new image_CRUD();
+		
+			$image_crud->set_primary_key_field('id');
+			$image_crud->set_url_field('url');
+			$image_crud->set_title_field('title');
+			$image_crud->set_table('wedding_album')
+			->set_ordering_field('priority')
+			->set_image_path('albums');
+				
+			$output = $image_crud->render();
+		
 		$this->load->view('photos/view_photos.php',$output);	
 		//$this->_example_output($output);
+		}else{
+			
+			$this->_render(array("photos/view_photos"),$output);
 
+		}
 	}	 
 	
 
