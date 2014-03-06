@@ -15,10 +15,11 @@ foreach($css_files as $file): ?>
 			<br />
 			<?php echo $output; ?>
 
-			<?php 
+			print_r($photos);
+			<?php /*
 				foreach ($photos as $key => $value) {
 					echo $key." -- ".print_r($value)."<br/>";
-				}
+				}*/
 			?>
 			
 		</div>
