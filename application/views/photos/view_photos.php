@@ -17,7 +17,7 @@ foreach($css_files as $file): ?>
 			<?php 
 				foreach ($photos as $key => $value) { ?>
 					
-						<img src="http://www.logan-mcgregor-wedding.com/albums/"<?= $photos[$key]['thumb'] ?> >
+						<img src="http://www.logan-mcgregor-wedding.com/albums/<?= $photos[$key]['thumb'] ?>" >
 
 			<?php
 				}
