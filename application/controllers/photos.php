@@ -30,8 +30,11 @@ class Photos extends MY_Controller {
 		$this->load->view('photos/view_photos.php',$output);	
 		//$this->_example_output($output);
 		}else{
-			
-			$this->_render(array("photos/view_photos"),$output);
+
+			$this->load->model("photos");
+			$data['photos'] = $this->photos->get();
+
+			$this->_render(array("photos/view_photos"),$data);
 
 		}
 	}	 
