@@ -5,22 +5,17 @@ class Quiz extends CI_Model {
 		parent::__construct();
 	}
 	
-	function get ($limit=NULL,$type='quiz') {
+	function get () {
 		
-		if(!$limit){
+		$query = "SELECT *,
+						 CONCAT('thumb__',url) AS 'thumb',
+						 url AS 'image'
+				  FROM wedding_album";
 		
-			$query = "SELECT *,
-							 CONCAT('thumb__',url) AS 'thumb',
-							 url AS 'image'
-					  FROM wedding_album";
-			
-			$pictures = $this->db->query($query)->result_array();
+		$pictures = $this->db->query($query)->result_array();
 
-			return $pictures;
-		}else{
-
-
-		}
+		return $pictures;
+	}
 	
 }
 
