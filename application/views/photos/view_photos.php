@@ -15,13 +15,11 @@ foreach($css_files as $file): ?>
 			<br />
 			<?php echo $output; ?>
 			<?php 
-				foreach ($photos as $key => $value) {
-					foreach ($photos[$key] as $row_value) {  ?>
+				foreach ($photos as $key => $value) { ?>
 					
-						<img src="http://www.logan-mcgregor-wedding.com/albums/"<?=$row_key['thumb']?>>
+						<img src="http://www.logan-mcgregor-wedding.com/albums/"<?= $photos[$key]['thumb'] ?> >
 
-			<?php 
-					}
+			<?php
 				}
 			?>
 			
