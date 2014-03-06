@@ -15,7 +15,7 @@ foreach($css_files as $file): ?>
 			<br />
 			<?php echo $output; ?>
 			<pre>
-			<?php print_r(array_pop($photos)); ?>
+			<?php print_r(array_shift($photos)); ?>
 			</pre>
 			<?php /*
 				foreach ($photos as $key => $value) {
