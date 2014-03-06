@@ -15,7 +15,9 @@ background-color: #e3e3e3;
 background-image:url('../img/body-background.png'); }
 
 /********* DEFAULT CLASSES *********/
-
+a{
+    text-decoration: none;
+}
 .clear {
 	clear: both;
 }
