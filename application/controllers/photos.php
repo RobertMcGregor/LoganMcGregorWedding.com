@@ -34,7 +34,7 @@ class Photos extends MY_Controller {
 			$this->load->model("photos");
 			$data['photos'] = $this->photos->get();
 
-			$this->_render(photos,$data);
+			$this->_render("photos",$data);
 
 		}
 	}	 
