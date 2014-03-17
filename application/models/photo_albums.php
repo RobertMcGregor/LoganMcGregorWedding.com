@@ -5,12 +5,16 @@ class Photo_albums extends CI_Model {
 		parent::__construct();
 	}
 	
-	function get () {
+	function get ($limit = 0) {
 		
 		$query = "SELECT *,
 						 CONCAT('thumb__',url) AS 'thumb',
 						 url AS 'image'
 				  FROM wedding_album";
+
+		if($limit != 0){
+			$query .= "LIMIT ".$limit;
+		}
 		
 		$pictures = $this->db->query($query)->result_array();
 
