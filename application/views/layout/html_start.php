@@ -17,7 +17,7 @@
 <script type="text/javascript" src="<?=LIB?>/jquery.innerlabel.js"></script>
 <script type="text/javascript" src="<?=LIB?>/swfobject-2.2/swfobject.js"></script>
 <script type="text/javascript" src="<?=LIB?>/jquery-validation-1.9.0/jquery.validate.js"></script>
-
+<script type="text/javascript" src="<?=LIB?>/colorbox-1.3.17/colorbox/jquery.colorbox-min.js"></script>
 
 <script type="text/javascript" src="<?=LIB?>/ChopSlider2/Scripts/jquery.id.chopslider-2.2.0.free.min.js"></script>
 <script type="text/javascript" src="<?=LIB?>/ChopSlider2/Scripts/jquery.id.cstransitions-1.2.min.js"></script>
@@ -38,7 +38,11 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
-   // Change the image of hoverable images
+
+    // Color box!
+    $("a[rel='colorbox']").colorbox();
+
+    // Change the image of hoverable images
 	$('.hover').each(function(){
     var t=$(this);
     var src1= t.attr('src'); // initial src
