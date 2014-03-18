@@ -9,7 +9,7 @@
 <link href="<?=CSS?>style.css" rel="stylesheet" type="text/css" />
 <link href="<?=CSS?>color.css" rel="stylesheet" type="text/css" />
 <link href="<?=CSS?>nav.css" rel="stylesheet" type="text/css" />
-<link href="<?=LIB?>/colorbox-1.3.17/colorbox/colorbox.css" rel="stylesheet" type="text/css"></script>
+<link href="<?=LIB?>colorbox-1.3.17/colorbox/colorbox.css" rel="stylesheet" type="text/css"></script>
 
 <link rel="stylesheet" type="text/css" href="<?=LIB?>/ChopSlider2/css/chopslider.css"/>
 
